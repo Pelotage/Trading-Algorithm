@@ -1,0 +1,21 @@
+# Build directories
+build/
+bin/
+lib/
+*.o
+*.so
+*.a
+
+# Data files
+data/*.csv
+data/*.json
+logs/
+
+# Config files with secrets
+config/secrets.json
+config/api_keys.txt
+
+# Temporary files
+*.tmp
+*.log
+core
